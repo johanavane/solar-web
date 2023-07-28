@@ -7,14 +7,14 @@ function Sunrun() {
       <div className="sunrun-flex">
         <div>
           <p>
-            SUNRUN <br />
+            SUNRUN <br className="sunrun-hide" />
             Certified Partner
           </p>
         </div>
         <div>
           <p>
-            SUNRUN is the nation's leading residential solar, storage <br /> and
-            energy services company.
+            SUNRUN is the nation's leading residential solar, storage
+            <br className="sunrun-hide" /> and energy services company.
           </p>
         </div>
       </div>
