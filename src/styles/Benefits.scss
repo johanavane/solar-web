@@ -1,0 +1,40 @@
+.benefits-container{
+    padding: 5vmin 0;
+    font-family: 'Inter', sans-serif;
+    h2{
+        text-align: center;
+        padding-bottom: 2vmin;
+    }
+}
+
+.benefits-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.benefit-box{
+    width: 44vmin;
+    margin: 2.5vmin;
+    padding: 2.5vmin;
+    border-radius: 2vmin;
+    border: 0.5vmin solid #EE601D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        display: block;
+        height: 7vmin;
+        width: 7vmin;
+        margin-bottom: 2vmin;
+    }
+    span{
+        padding-bottom: 1vmin;
+        font-weight: 700;
+    }
+    p,span{
+        line-height: 3.5vmin;
+        text-align: center;
+    }
+}
