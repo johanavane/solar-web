@@ -1,0 +1,35 @@
+.services-container{
+    background-color: paleturquoise;
+    padding: 6vmin 0;
+    margin: 0 4vmin;
+    border-radius: 2vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-list{
+    background-color: pink;
+    width: 60vmin;
+    padding: 8vmin;
+    h3{
+        text-align: center;
+    }
+}
+
+.contact-form{
+    background-color: plum;
+    width: 60vmin;
+    padding: 8vmin;
+    margin: 5vmin;
+    border-radius: 2vmin;
+    h3,p{
+        text-align: center;
+    }
+
+    form{
+     display: flex;
+     flex-direction: column;
+    }
+    
+}
