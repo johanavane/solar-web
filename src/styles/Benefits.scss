@@ -10,8 +10,9 @@
 .benefits-flex{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
+    margin: 0 7vmin;
 }
 
 .benefit-box{
@@ -23,6 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1 1 30%;
     img{
         display: block;
         height: 7vmin;
@@ -37,4 +39,22 @@
         line-height: 3.5vmin;
         text-align: center;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .benefits-flex{
+        margin: 0 6vmin;
+    }
+    .benefit-box{
+        padding: 5vmin 3.5vmin;
+        flex: 1 1 30%;
+        img{
+            height: 9vmin;
+            width: 9vmin;
+            margin-bottom: 2.5vmin;
+        }
+        span{
+            padding-bottom: 2vmin;
+        }
+    }   
 }

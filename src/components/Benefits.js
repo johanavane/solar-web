@@ -36,16 +36,7 @@ function Benefits() {
             making it more attractive to potential buyers.
           </p>
         </div>
-      </div>
-      <div className="benefits-flex">
-        <div className="benefit-box">
-          <img src={gear} alt="dollar sign" />
-          <span>Durable & Low Maintenance</span>
-          <p>
-            Solar panels have a 25-30 year lifespan with minimal maintenance,
-            making them a reliable and cost-effective long-term investment.
-          </p>
-        </div>
+
         <div className="benefit-box">
           <img src={transfer} alt="dollar sign" />
           <span>Easy Transferability</span>
@@ -55,11 +46,19 @@ function Benefits() {
           </p>
         </div>
         <div className="benefit-box">
+          <img src={gear} alt="dollar sign" />
+          <span>Durable & Low Maintenance</span>
+          <p>
+            Solar panels have a 25-30 year lifespan with minimal maintenance,
+            making them a reliable and cost-effective long-term investment.
+          </p>
+        </div>
+        <div className="benefit-box">
           <img src={leaf} alt="dollar sign" />
           <span>Environmental Protection</span>
           <p>
-            By using solar energy, you actively contribute to environmental
-            protection by reducing carbon emissions & your ecological footprint.
+            Using solar energy contributes to environmental protection by
+            reducing carbon emissions & your ecological footprint.
           </p>
         </div>
       </div>
