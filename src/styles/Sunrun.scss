@@ -2,6 +2,9 @@
     padding: 8vmin 0;
     display: flex;
     justify-content: center;
+    div:last-of-type{
+        align-items: center;
+    }
 }
 
 .sunrun-flex{
@@ -27,9 +30,6 @@
     }
 }
 
-div:last-of-type{
-        align-items: center;
-    }
 
 @media only screen and (max-width: 750px) {
     .sunrun-hide{
