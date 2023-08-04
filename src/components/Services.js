@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Services.scss";
+import { MdEmail } from "react-icons/md";
+import { BsTelephoneFill } from "react-icons/bs";
 
 function Services() {
   return (
@@ -8,38 +10,63 @@ function Services() {
         <h3>Services</h3>
         <ul>
           <li>
-            Solar energy systems are expertly installed to maximize energy
-            profuction.
+            <p>1</p>
+            <p>
+              Solar energy systems are expertly installed to maximize energy
+              profuction.
+            </p>
           </li>
           <li>
-            We handle paperwork and schedule inspections, ensuring compliance.
+            <p>2</p>
+            <p>
+              We handle paperwork and schedule inspections, ensuring compliance.
+            </p>
           </li>
           <li>
-            We work with you, your city, and utility company to get your system
-            up and running smoothly.
+            <p>3</p>
+            <p>
+              We work with you, your city, and utility company to get your
+              system up and running smoothly.
+            </p>
           </li>
           <li>
-            System maintenance, monitoring, and timely repairs are provided to
-            ensure optimal performance.
+            <p>4</p>
+            <p>
+              System maintenance, monitoring, and timely repairs are provided to
+              ensure optimal performance.
+            </p>
           </li>
           <li>
-            Easily track your system's performance through our online energy
-            app.
+            <p>5</p>
+            <p>
+              Easily track your system's performance through our online energy
+              app.
+            </p>
           </li>
         </ul>
       </section>
       <section className="contact-form">
-        <h3>Get in touch</h3>
-        <p>email</p>
-        <p>phone number</p>
+        <div className="get-in-touch">
+          <h3>Get in touch</h3>
+          <div>
+            <MdEmail />
+            <span>alfredo.moreno@sunrun.com</span>
+          </div>
+          <div>
+            <BsTelephoneFill />
+            <span> (408)413-8096</span>
+          </div>
+        </div>
         <form>
           <label>Name</label>
           <input id="fullname" name="fullname" type="text" />
           <label>Email</label>
           <input id="email" name="email" type="email" />
           <label>Message</label>
-          <input id="message" name="message" type="text" />
-          <button>Submit</button>
+          <textarea id="message" name="message" type="text" />
+          <button>
+            <span>Submit</span>
+          </button>
         </form>
       </section>
     </div>
