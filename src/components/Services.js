@@ -1,9 +1,27 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import "../styles/Services.scss";
 import { MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
+const API_KEY = process.env.REACT_APP_API_KEY;
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
 
 function Services() {
+  function sendEmail(e) {
+    // console.log("submit pressed");
+    e.preventDefault();
+
+    emailjs.sendForm(SERVICE_ID, "template_hyzmbwt", e.target, API_KEY).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+    e.target.reset();
+  }
+
   return (
     <div className="services-container">
       <section className="services-list">
@@ -54,12 +72,12 @@ function Services() {
           </div>
           <div>
             <BsTelephoneFill />
-            <span> (408)413-8096</span>
+            <span>(408)413-8096</span>
           </div>
         </div>
-        <form>
+        <form onSubmit={sendEmail}>
           <label>Name</label>
-          <input id="fullname" name="fullname" type="text" />
+          <input id="name" name="name" type="text" />
           <label>Email</label>
           <input id="email" name="email" type="email" />
           <label>Message</label>
