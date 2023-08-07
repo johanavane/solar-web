@@ -1,0 +1,45 @@
+.services-container{
+    background-color: #20365c;
+    padding: 2vmin 0;
+    margin: 5vmin;
+    border-radius: 2vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.3vmin;
+}
+
+.services-list{
+    background-color: #20365c;
+    width: 60vmin;
+    padding: 8vmin 7vmin;
+    margin: 0vmin 7vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+        text-align: center;
+        margin-bottom: 4vmin;
+        color: white;
+    }
+    li{
+        display: flex;
+        line-height: 3.7vmin;
+        margin-bottom: 3vmin;
+        list-style: none;
+        color: white;
+    }
+    p:first-of-type{
+        background-color: #EE601D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4vmin;
+        width: 4vmin;
+        border-radius: 30%;
+        border: 0.4vmin solid #c74a0f;
+        margin: 0.8vmin 4vmin 0 0;
+        padding: 2vmin;
+    }
+}
