@@ -12,7 +12,7 @@ function Services() {
             <p>1</p>
             <p>
               Solar energy systems are expertly installed to maximize energy
-              profuction.
+              production.
             </p>
           </li>
           <li>
@@ -24,7 +24,7 @@ function Services() {
           <li>
             <p>3</p>
             <p>
-              We work with you, your city, and utility company to get your
+              We work with you, your city, and your utility company to get your
               system up and running smoothly.
             </p>
           </li>
