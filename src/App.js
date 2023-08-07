@@ -4,6 +4,7 @@ import Sunrun from "./components/Sunrun";
 import Images from "./components/Images";
 import Benefits from "./components/Benefits";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Images />
       <Benefits />
       <Services />
+      <Footer />
     </>
   );
 }
