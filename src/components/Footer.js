@@ -5,22 +5,23 @@ function Footer() {
   return (
     <section className="footer-container">
       <div>
-        <p>
-          SUNRUN <br /> Certified Partner
+        <p className="footer-title">
+          Sunrun <br /> Certified <br /> Installer
         </p>
       </div>
       <div>
-        <p>phone</p>
-        <p>email</p>
+        <p className="footer-title">Contact Me</p>
+        <p>(408)413-8096</p>
+        <p>Alfredo.moreno@sunrun.com</p>
       </div>
       <div>
-        <p>facebook</p>
-        <p>linkedin</p>
+        <p className="footer-title">Location</p>
+        <p>Hollister, CA</p>
+        <p>Willing to travel</p>
       </div>
       <div>
-        <span>
-          Web Design by <br /> Channel Code.
-        </span>
+        <p className="footer-title">Website by</p>
+        <p>Johana M.</p>
       </div>
     </section>
   );

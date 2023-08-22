@@ -1,7 +1,6 @@
 .footer-container{
     background-color: black;
-    // background-color: #212121;
-    color: white;
+    color: #CCCCCC;
     font-family: 'Inter', sans-serif;
     font-size: 2.3vmin;
     padding: 6vmin 0;
@@ -12,4 +11,12 @@
     span{
         color: #b9b9b9;
     }
+    p{
+        line-height: 3.6vmin;
+    }
+}
+
+p.footer-title{
+        // color: #808080;
+        color: white;
 }
