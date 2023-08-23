@@ -2,21 +2,47 @@
     background-color: black;
     color: #CCCCCC;
     font-family: 'Inter', sans-serif;
-    font-size: 2.3vmin;
-    padding: 6vmin 0;
+    padding: 5.5vmin 0;
+    p, span, h3, a{
+        font-size: 2.3vmin;
+        line-height: 3.6vmin;
+    }
+}
+.footer-show{
+    display: none;
+    text-align: center;
+}
+
+.footer-links{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
     span{
         color: #b9b9b9;
     }
-    p{
-        line-height: 3.6vmin;
+    a{
+        color: #CCCCCC; 
+        text-decoration: none;
+    }
+    a:after {
+        content: "";
+        display: block;
     }
 }
 
 p.footer-title{
-        // color: #808080;
         color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-hide{
+        display: none;
+    }
+    .footer-show{
+        display: block;
+        margin-bottom: 2vmin;
+    }
+    .footer-container{
+        padding: 5vmin 0;
+    }
 }
