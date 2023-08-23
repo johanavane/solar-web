@@ -1,4 +1,5 @@
 import "./App.scss";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home.js";
 import Sunrun from "./components/Sunrun";
 import Images from "./components/Images";
@@ -9,6 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+      <Navbar />
       <Home />
       <Sunrun />
       <Images />
