@@ -4,7 +4,7 @@ import "../styles/Services.scss";
 
 function Services() {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <section className="services-list">
         <h3>Services</h3>
         <ul>
