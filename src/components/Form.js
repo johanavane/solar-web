@@ -28,10 +28,10 @@ function Form() {
   const form = useRef();
 
   // form that handles on submit
-  function sendEmail(e) {
+  function sendEmail(data, e) {
     console.log("submit presseddd");
     console.log(e);
-    // e.preventDefault();
+    e.preventDefault();
 
     emailjs
       .sendForm(SERVICE_ID, "template_hyzmbwt", form.current, API_KEY)
@@ -86,9 +86,7 @@ function Form() {
             />
             <p className="error-message">{errors.message?.message}</p>
           </div>
-          <button type="submit">
-            <span>Submit</span>
-          </button>
+          <button>Submit</button>
         </form>
       </section>
     </div>
