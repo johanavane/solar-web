@@ -48,7 +48,7 @@ function Form() {
 
   return (
     <div>
-      <section className="contact-form">
+      <section className="contact-form" id="contact">
         <div className="get-in-touch">
           <h3>Get in touch</h3>
           <div>

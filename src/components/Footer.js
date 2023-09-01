@@ -15,7 +15,6 @@ function Footer() {
         </div>
         <div>
           <h3 className="footer-title">Contact Me</h3>
-          {/* <p>(408)413-8096</p> */}
           <a href="tel:408-413-8096">(408)413-8096</a>
           <a href="mailto: Alfredo.moreno@sunrun.com">
             Alfredo.moreno@sunrun.com

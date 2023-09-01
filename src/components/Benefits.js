@@ -9,7 +9,7 @@ import leaf from "../images/leaf.png";
 
 function Benefits() {
   return (
-    <section className="benefits-container">
+    <section className="benefits-container" id="benefits">
       <h2>Benefits Of Solar Energy</h2>
       <div className="benefits-flex">
         <div className="benefit-box">
