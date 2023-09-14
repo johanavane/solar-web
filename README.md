@@ -23,8 +23,8 @@ I managed the development process and tracked tasks using Trello, ensuring a str
 ## Getting Started
 To run this project locally for development or testing purposes, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/johanavane/rd-website.git`
-2. Navigate to the project directory: `cd rd-website`
+1. Clone the repository: `git clone https://github.com/johanavane/solar-web.git`
+2. Navigate to the project directory: `cd solar-web`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start` or `yarn start`
 5. Access the website in your browser at `http://localhost:3000`
