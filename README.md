@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# SolarTechExpert.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to [SolarTechExpert.com](https://www.solartechexpert.com), the official website for a certified solar installer associated with Sunrun. This website ensures brand alignment and provides a polished interface to streamline contact and scheduling for clients through the use of EmailJS.
 
-## Available Scripts
+## Tech Stack
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![scss](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![figma](https://img.shields.io/badge/figma-000000?style=for-the-badge&logo=figma&logoColor=white)
 
-In the project directory, you can run:
+## Key Achievements
 
-### `yarn start`
+- **Brand Alignment:** I ensured brand alignment with Sunrun, a significant player in the solar industry, to convey trust and professionalism to visitors.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Polished Interface:** The website provides a polished interface that simplifies contact and scheduling for clients, thanks to the integration of EmailJS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Single-Page Application:** I used HTML, SCSS, JavaScript, and React.js to create a single-page application that highlights the services offered and the compelling benefits of adopting solar energy.
 
-### `yarn test`
+## Deployment
+I managed the development process and tracked tasks using Trello, ensuring a structured and organized workflow. The website is successfully deployed and hosted on Netlify, ensuring fast and reliable access for visitors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+To run this project locally for development or testing purposes, follow these steps:
 
-### `yarn build`
+1. Clone the repository: `git clone https://github.com/johanavane/solar-web.git`
+2. Navigate to the project directory: `cd solar-web`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start` or `yarn start`
+5. Access the website in your browser at `http://localhost:3000`
+   
+The page will automatically reload if you make any edits, and any lint errors will be displayed in the console.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you have any questions or would like to get in touch, feel free to reach out to me via email at [johanamalv@gmail.com](mailto:johanamalv@gmail.com).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thank you for visiting my project!
 
-### `yarn eject`
+## Screenshots
+<img width="1440" alt="sp-landing" src="https://github.com/johanavane/solar-web/assets/60996916/e0e1d4b8-4437-4051-80e2-e446259bc3dd">
+<img width="1440" alt="sp-images" src="https://github.com/johanavane/solar-web/assets/60996916/caffb0a8-b81f-407f-b6dd-d66efe6e7192">
+<img width="1440" alt="sp-benefits" src="https://github.com/johanavane/solar-web/assets/60996916/d980a30c-7534-4dfe-93b5-9d265d8fbdf2">
+<img width="1440" alt="sp-services" src="https://github.com/johanavane/solar-web/assets/60996916/b581239e-a82c-40e6-ba85-fa44364073be">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
