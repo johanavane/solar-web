@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import emailjs from "emailjs-com";
 import * as yup from "yup";
-const API_KEY = process.env.REACT_APP_API_KEY;
+const USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
 
 function Form() {
@@ -34,7 +34,7 @@ function Form() {
     e.preventDefault();
 
     emailjs
-      .sendForm(SERVICE_ID, "template_hyzmbwt", form.current, API_KEY)
+      .sendForm(SERVICE_ID, "template_hyzmbwt", form.current, USER_ID)
       .then(
         (result) => {
           console.log(result.text);
