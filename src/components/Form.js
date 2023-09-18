@@ -86,7 +86,7 @@ function Form() {
             />
             <p className="error-message">{errors.message?.message}</p>
           </div>
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </section>
     </div>

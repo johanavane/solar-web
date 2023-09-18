@@ -18,7 +18,7 @@ function Benefits() {
       <h2>Benefits Of Solar Energy</h2>
       <div className="benefits-flex">
         {benefitData.map((benefit) => (
-          <BenefitBox {...benefit} />
+          <BenefitBox key={benefit.id} {...benefit} />
         ))}
       </div>
     </section>
